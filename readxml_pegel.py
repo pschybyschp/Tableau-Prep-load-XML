@@ -3,8 +3,8 @@ import pandas as pd
 
 
 def Get_XML_Data(df):
-    # Load the XML file
-    tree = ET.parse('/Users/pprzybysz/Desktop/pegelstaende_neu.xml')
+    # Load the XML file - Update the path
+    tree = ET.parse('/Users/XYZ/Desktop/pegelstaende_neu.xml')
     root = tree.getroot()
 
     # Create empty lists to store data
@@ -35,12 +35,6 @@ def Get_XML_Data(df):
         'Pegelnummer': pegelnummer_list
     })
     return df
-
-def encode(df):     
-  return pd.DataFrame({
-    'Pegelname' : df['Pegelname'],
-})
-
 
 def get_output_schema():       
   return pd.DataFrame({
