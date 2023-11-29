@@ -1,4 +1,7 @@
 # Tableau-Prep-load-XML
+
+![image](https://github.com/pschybyschp/Tableau-Prep-load-XML/assets/89010180/cb4a8ae1-1a97-4725-8b04-b3df5bd9ac59)
+
 Currently Tableau Prep doesnt offer the option to load XML data. 
 With the following script you can load XML data from a file located on your desktop.
 Prerequisite:
